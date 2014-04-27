@@ -2,7 +2,6 @@
 ### Original data:
 
 - [source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
-
 - [description](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 
@@ -19,7 +18,7 @@ Following data transformations are carried out by the `run_analysis.R` script.
 3. Associate an additional column with descriptive activity names as specified in `activity_labels.txt`.
 4. Melt the dataset by specifying activity ID, name and subject ID as the only ID variables.
 5. Re cast the melted dataset with activity name and subject id as the only IDs and `mean` as the aggregator function.
-6. Save the resultin re-casted dataset as `tidy.txt`
+6. Save the result in re-casted dataset as `tidy.txt`
 
 
 ### Variable Descriptions

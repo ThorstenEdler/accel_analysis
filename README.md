@@ -6,6 +6,7 @@
 - Change current directory to the `UCI HAR Dataset` folder.
 - Run `Rscript <path to>/run_analysis.R`
 - The tidy dataset should get created in the current directory as `tidy.txt`
+- Code book for the tidy dataset is available [here](CodeBook.md)
 
 
 ### Assumptions
